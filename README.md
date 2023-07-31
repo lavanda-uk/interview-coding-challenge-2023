@@ -1,4 +1,4 @@
-# SETUP
+# SETUP:
 
 1. Using the file in `data/file.txt` (you can use `wget` - after this you’ll have a new `file.txt` file in the local working directory)
 2. Execute `wc file.txt`
@@ -9,3 +9,7 @@
 # EXERCISE:
 
 Write a ruby program that implements the same behaviour as `wc file.txt`
+
+# DOCUMENTATION:
+
+Sinatra: https://sinatrarb.com/
