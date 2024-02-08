@@ -5,7 +5,6 @@
 3. Execute `man wc` to get acquainted with the `wc` command, if you don’t know it
 4. Design an API endpoint that receives a file/text and returns `wc` response
 
-
 # EXERCISE:
 
 Write a ruby program that implements the same behaviour as `wc file.txt`
