@@ -1,1 +1,7 @@
 Gemfile.lock
+
+# Elixir build artifacts
+_build/
+deps/
+*.ez
+erl_crash.dump
