@@ -27,3 +27,13 @@ This is an exercise to test your ability to create a ruby program which emulates
 # BONUS:
 
 * If you have time, you can also look at implementing a simple API using Sinatra to expose your program to the web.
+
+# HINTS
+
+You can pipe `echo` in to `wc` to run it against arbitrary text:
+
+```
+echo -n "foo\nbar" | wc
+```
+
+The `-n` argument supresses a newline at the end of the given string, so `echo -n "foo\n"` and `echo "foo"` are the same`
