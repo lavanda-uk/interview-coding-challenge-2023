@@ -10,23 +10,19 @@ This is an exercise to test your ability to create a ruby program which emulates
 4. You should see something like this:
 
 ```
-  3  10  60 data/file.txt
+3 10 60 data/file.txt
 ```
 
 # EXERCISE:
 
-1. Write a ruby program that implements the same behaviour as `wc data/file.txt`, don't worry too much about the spacing between the numbers or the filename.
-2. Ensure that you follow best practices and write clean, readable code.
-3. You should also write specs for your program to ensure that it works as expected, you can use the `rspec` gem to do this - TDD is encouraged but not essential.
-4. Please remember to explain your thought process and as you complete the exercise.
-
-# NOTES:
-
-* Whilst we encourage the use of AI tooling such as Copilot and ChatGPT, please ensure that you are able to understand and explain the code that you write.
-
-# BONUS:
-
-* If you have time, you can also look at implementing a simple API using Sinatra to expose your program to the web.
+* Write a ruby program that implements the same behaviour as `wc data/file.txt`
+* You do not need to support any command line arguments that `wc` supports
+* Ensure that you follow best practices and write clean, readable code
+* Write specs for your code to ensure that it works as expected
+* TDD (Test Driven Development) is encouraged but not essential
+* Please remember to explain your thought process and as you complete the exercise.
+* Also consider a future requirement that this feature might need to exposing as web based service
+* Whilst we encourage the use of AI tooling, please ensure that you are comfortable and able to understand and explain the code
 
 # HINTS
 
